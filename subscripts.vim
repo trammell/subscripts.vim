@@ -12,9 +12,6 @@ if &cp || exists("loaded_subscripts")
 endif
 let loaded_subscripts = 1
 
-nmap <Leader>S :call MakeSubScript()<CR>
-vmap <Leader>s :call s:MakeSubScript()<CR>
-
 " Refer ':help using-<Plug>'
 if !hasmapto('<Plug>MakeSubScript')
   map <unique> <Leader>s <Plug>MakeSubScript
