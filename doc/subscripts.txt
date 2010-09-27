@@ -1,0 +1,7 @@
+" vim: set filetype=help modifiable noreadonly :
+
+*subscripts.vim* is a plugin to simplify creating subscripts.
+
+A simple function using Vim builtin function|tr()|to replace normal-script
+numbers with subscripted numbers.  The plugin attempts to map keys <Leader>s
+to call function <Plug>MakeSubScript.
